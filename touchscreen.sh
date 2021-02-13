@@ -1,6 +1,6 @@
 # setup independent cursor input for touchscreen
-xinput create-master TouchScreen
-TPID=$(xinput --list --id-only "Touch pointer")
+xinput create-master TouchScreenGX551QS
+TPID=$(xinput --list --id-only "TouchScreenGX551QS pointer")
 TTID=$(xinput --list |grep ELAN|grep -v keyboard)
 TTID=${TTID#*id=}
 TTID=${TTID%*[*}
