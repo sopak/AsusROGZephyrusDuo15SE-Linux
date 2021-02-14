@@ -1,5 +1,7 @@
 # Asus ROG Zephyrus Duo 15 SE - Linux Kubuntu Setup - GX551QS-HF038T
 
+* start on Kubuntu Ubuntu 20.04.2 LTS
+
 * install mainline 
 ```
 apt install mainline
