@@ -4,13 +4,15 @@
 
 * install mainline 
 ```
-apt install mainline
+sudo add-apt-repository ppa:cappelikan/ppa
+sudo apt update
+sudo apt install mainline
 ```
 
 * check kernel version, it should be at least 5.10.x choose and install never ketnel then
 ```
-mainline --list
-mainline install 5.10.15
+sudo mainline --list
+sudo mainline install 5.10.15
 
 ```
 
